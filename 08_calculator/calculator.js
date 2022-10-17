@@ -28,11 +28,12 @@ const multiply = function(given) {
 };
 
 const power = function(firstNumber, secondNumber) {
-  let total = 1;
-  for(let i=0 ; i<secondNumber; i++){
-    total = firstNumber * total;
-  }
-  return total;
+  return Math.pow(firstNumber,secondNumber);
+  // let total = 1;
+  // for(let i=0 ; i<secondNumber; i++){
+  //   total = firstNumber * total;
+  // }
+  // return total;
 	
 };
 
