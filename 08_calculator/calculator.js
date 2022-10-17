@@ -18,7 +18,12 @@ return total;
 	
 };
 
-const multiply = function() {
+const multiply = function(given) {
+  let total = 1;
+  for(let i=0; i<given.length; i++){
+   total *= given[i];
+  }
+  return total;
 
 };
 
