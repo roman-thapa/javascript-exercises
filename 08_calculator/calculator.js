@@ -9,7 +9,12 @@ const subtract = function(firstNumber, secondNumber) {
 	
 };
 
-const sum = function() {
+const sum = function(given) {
+  let total = 0;
+for(let i=0; i<given.length; i++){
+ total += given[i];
+}
+return total;
 	
 };
 
