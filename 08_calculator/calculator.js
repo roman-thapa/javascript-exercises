@@ -36,8 +36,12 @@ const power = function(firstNumber, secondNumber) {
 	
 };
 
-const factorial = function() {
-	
+const factorial = function(given) {
+  let total = 1;
+  for(let i=1; i<=given; i++){
+    total *= i;
+  }
+	return total;
 };
 
 // Do not edit below this line
