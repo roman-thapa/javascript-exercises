@@ -3,7 +3,9 @@ const add = function(firstNumber, secondNumber) {
  return addition;	
 };
 
-const subtract = function() {
+const subtract = function(firstNumber, secondNumber) {
+  let subtraction = firstNumber - secondNumber ;
+  return subtraction;
 	
 };
 
