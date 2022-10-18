@@ -1,7 +1,8 @@
 const fibonacci = function(target) {
-    if(target<=0){
+    if(target<0){
         return "OOPS";
     }
+    if (target===0) return 0;
     let fibonacciNumber=1;
     let previous = [];
     previous[0] = 1;
