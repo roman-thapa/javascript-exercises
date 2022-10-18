@@ -4,13 +4,13 @@ const fibonacci = function(target) {
     }
     if (target===0) return 0;
     let fibonacciNumber=1;
-    let previous = [];
-    previous[0] = 1;
-    previous[1] = 1;
+    let arrayOfFibonacci = [];
+    arrayOfFibonacci[0] = 1;
+    arrayOfFibonacci[1] = 1;
 
     for (let i=1;i< +target;i++){
-    previous[i+1] = previous[i] + previous[i-1];
-    fibonacciNumber = previous[i];
+    arrayOfFibonacci[i+1] = arrayOfFibonacci[i] + arrayOfFibonacci[i-1];
+    fibonacciNumber = arrayOfFibonacci[i];
     }
 
     return fibonacciNumber;
